@@ -6,7 +6,7 @@ data {
 parameters {
   real intercept;
   real beta;
-  #include "/include/sigma.stan"
+#include /include/sigma.stan
 }
 model {
   // ... priors, etc.
